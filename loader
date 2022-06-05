@@ -120,9 +120,9 @@ local function load()
 	 )
 	 ImageLabel.rotating:Destroy()
 	 repeat
-		 ImageLabel.Rotation = ImageLabel.Rotation - 1
+		 ImageLabel.Rotation = ImageLabel.Rotation - 5
 		 game["Run Service"].RenderStepped:Wait()
-	 until script.Parent.Rotation == 0
+	 until script.Parent.Rotation <= 0
 	 ImageLabel.Image = "rbxassetid://7072706620"
 	 Holder:TweenPosition(
 		 UDim2.new(0.286, 0,4.349, -50),
