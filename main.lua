@@ -524,8 +524,10 @@ local function SFBEM_fake_script() -- Artifact.artifact
 			end
 		end
 	end
-	wait(5)
-	script.Parent.Text = "Current artifact:"..Arti
+	while true do
+	   script.Parent.Text = "Current artifact:"..Arti
+	   wait(5)
+	end
 end
 coroutine.wrap(SFBEM_fake_script)()
 local function MKNCEKO_fake_script() -- UIGradient_2.live_gradient 
