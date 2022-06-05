@@ -1,4 +1,5 @@
 # cringe.lua
+# PLEASE.SCRIPT REQUIRING TO BE SPAWNED IN GAME,AND FULLY LOADED GAME(EVERYTHING LITERALLY,MAINLY GUI)
 - rogue lineage loot helper
 - i spent 40 hours to make this but its still have bugs that i dont know how to fix
 so if you find any bugs dm my slave(Rdm#3381 or 917045632248737832) or me(ikottiz#8423 or 956409244142432286)
