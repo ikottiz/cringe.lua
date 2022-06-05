@@ -1,6 +1,8 @@
 -- Gui to Lua
 -- Version: 3.2
-
+local function load()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ikottiz/cringe.lua/main/main.lua", true))()
+end
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -117,7 +119,7 @@ local function UROXB_fake_script() -- ImageLabel.resizing
 		game["Run Service"].RenderStepped:Wait()
 	until green == 255
 	wait(.5)
-	script.Parent.Parent.loading:TweenSize(
+	loading:TweenSize(
 		UDim2.new(0, 200,0, 100),
 		"Out",
 		"Quint",
@@ -125,7 +127,7 @@ local function UROXB_fake_script() -- ImageLabel.resizing
 		false
 	)
 	script.Parent.Image = "rbxassetid://7072718307"
-	script.Parent.Parent.loading:Destroy()
+	loading:Destroy()
 	script.Parent:TweenSize(
 		UDim2.new(0, 50,0, 50),
 		"Out",
@@ -151,7 +153,6 @@ local function UROXB_fake_script() -- ImageLabel.resizing
 	
 	-- Instances:
 	local notification = Instance.new("ScreenGui")
-	syn.protect_gui(notification)
 	notification.Parent = game.CoreGui
 	local TextLabel = Instance.new("TextLabel")
 	local UICorner = Instance.new("UICorner")
@@ -196,7 +197,7 @@ local function UROXB_fake_script() -- ImageLabel.resizing
 		until TextLabel.TextSize == 1
 		notification:Destroy()
 	wait(1)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ikottiz/cringe.lua/main/main.lua", true))()
+        load()
 end
 coroutine.wrap(UROXB_fake_script)()
 local function HRWQ_fake_script() -- ImageLabel.rotating 
