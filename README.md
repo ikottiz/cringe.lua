@@ -7,7 +7,7 @@
 so if you find any bugs dm my slave(Rdm#3381 or 917045632248737832) or me(ikottiz#8423 or 956409244142432286)
 ## loadstring
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ikottiz/cringe.lua/main/loader", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ikottiz/cringe.lua/main/main.lua", true))()
 ```
 ### features
 * syn.protect for undetect!!!!
