@@ -1,9 +1,5 @@
 # cringe.lua
-## PLEASE
-## SCRIPT REQUIRING TO BE SPAWNED IN GAME,AND FULLY LOADED GAME(EVERYTHING LITERALLY,MAINLY GUI)
-## IF YOU DONT DO THAT,SCRIPT WONT WORK PROPERLY
-- rogue lineage loot helper
-- i dont think i will update this
+## trash code,i think i will rewrite this
 ## loadstring
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ikottiz/cringe.lua/main/main.lua", true))()
